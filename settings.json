@@ -1,0 +1,32 @@
+{
+    "editor.fontSize": 12,
+    "editor.lineNumbers": "relative",
+
+    "window.zoomLevel": -1,
+
+    "workbench.colorCustomizations": {
+        "terminal.background": "#000000"
+    },
+    "workbench.activityBar.visible": true,
+
+    "vim.otherModesKeyBindings": [
+        {
+            "before": ["<Leader>", "f", "s"],
+            "commands": [
+                {
+                    "command": ":w"
+                }
+            ] 
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+
+    ],
+
+    "vim.leader": "<Space>"
+
+}
