@@ -27,6 +27,7 @@
 
     ],
 
-    "vim.leader": "<Space>"
+    "vim.leader": "<Space>",
 
+    "gitlens.codeLens.enabled": false
 }
