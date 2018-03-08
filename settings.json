@@ -1,8 +1,12 @@
 {
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 12,
+    
     "editor.fontSize": 12,
     "editor.lineNumbers": "relative",
 
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
 
     "workbench.colorCustomizations": {
         "terminal.background": "#000000"
@@ -28,6 +32,6 @@
     ],
 
     "vim.leader": "<Space>",
-
+    "gitlens.keymap": "alternate",
     "gitlens.codeLens.enabled": false
 }
