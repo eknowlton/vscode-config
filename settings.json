@@ -3,15 +3,25 @@
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 12,
     
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     "editor.lineNumbers": "relative",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings":{
+                    "fontStyle": "italic"
+                }},
+            }
+        ]
+    },
 
     "window.zoomLevel": 0,
 
     "workbench.colorCustomizations": {
         "terminal.background": "#000000"
     },
-    "workbench.activityBar.visible": true,
 
     "vim.otherModesKeyBindings": [
         {
@@ -33,5 +43,14 @@
 
     "vim.leader": "<Space>",
     "gitlens.keymap": "alternate",
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+
+    "php.suggest.basic": false,
+
+    "intelephense.completionProvider.backslashPrefix": false,
+
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false
+
 }
