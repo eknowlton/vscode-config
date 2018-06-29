@@ -1,4 +1,6 @@
 {
+    "phpcs.standard": "PSR2",
+
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 12,
@@ -30,7 +32,7 @@
                 {
                     "command": ":w"
                 }
-            ] 
+            ]
         }
     ],
     "vim.insertModeKeyBindings": [
@@ -49,8 +51,21 @@
 
     "intelephense.completionProvider.backslashPrefix": false,
 
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.editor.showTabs": false,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
 
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
 }
