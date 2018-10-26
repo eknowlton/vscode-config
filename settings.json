@@ -1,40 +1,20 @@
 {
-    "phpcs.standard": "PSR2",
-
     "terminal.integrated.shell.osx": "/bin/zsh",
     "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 12,
-    
-    "editor.fontSize": 11,
     "editor.lineNumbers": "relative",
-
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings":{
-                    "fontStyle": "italic"
-                },
-            }
-        ]
-    },
+    "editor.insertSpaces": true,
 
     "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
 
-    "workbench.colorCustomizations": {
-        "terminal.background": "#000000"
+    "gitlens.keymap": "alternate",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
     },
 
-    "vim.otherModesKeyBindings": [
-        {
-            "before": ["<Leader>", "f", "s"],
-            "commands": [
-                {
-                    "command": ":w"
-                }
-            ]
-        }
-    ],
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "k"],
@@ -43,29 +23,51 @@
 
     ],
 
-    "vim.leader": "<Space>",
-    "gitlens.keymap": "alternate",
-    "gitlens.codeLens.enabled": false,
-
-    "php.suggest.basic": false,
-
-    "intelephense.completionProvider.backslashPrefix": false,
-
     "workbench.activityBar.visible": true,
     "workbench.editor.showTabs": false,
     "editor.minimap.enabled": false,
 
-    "[ruby]": {
-        "editor.tabSize": 2
-    },
-    "gitlens.historyExplorer.enabled": true,
-    "gitlens.advanced.messages": {
-        "suppressShowKeyBindingsNotice": true
-    },
-    "[javascript]": {
+    "[typescript]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
-    }
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+
+    "editor.acceptSuggestionOnEnter": "off",
+    "vim.disableExtension": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+    "terminal.external.linuxExec": "iterm",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "One Dark Italic",
 }
