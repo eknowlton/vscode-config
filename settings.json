@@ -5,7 +5,7 @@
     "editor.lineNumbers": "relative",
     "editor.insertSpaces": true,
 
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "window.titleBarStyle": "custom",
 
     "gitlens.keymap": "alternate",
@@ -23,7 +23,7 @@
 
     ],
 
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "workbench.editor.showTabs": false,
     "editor.minimap.enabled": false,
 
@@ -56,18 +56,17 @@
     "editor.acceptSuggestionOnEnter": "off",
     "vim.disableExtension": false,
     "workbench.iconTheme": "material-icon-theme",
-    "github.hosts": [
-        {
-            "host": "https://github.com",
-            "username": "oauth",
-            "token": "system"
-        }
-    ],
-    "terminal.external.linuxExec": "iterm",
-    "terminal.external.osxExec": "iTerm.app",
-    "terminal.explorerKind": "external",
-    "terminal.integrated.rendererType": "dom",
     "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "workbench.colorTheme": "One Dark Italic",
+    "workbench.statusBar.visible": true,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "workbench.panel.defaultLocation": "right",
+    "terminal.explorerKind": "external",
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.experimentalBufferImpl": "TypedArray",
+    "terminal.integrated.lineHeight": 0,
+    "terminal.integrated.cursorStyle": "underline",
 }
