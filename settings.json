@@ -10,7 +10,6 @@
 
     "gitlens.keymap": "alternate",
     "gitlens.codeLens.enabled": false,
-    "gitlens.historyExplorer.enabled": true,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
