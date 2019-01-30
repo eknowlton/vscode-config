@@ -1,28 +1,30 @@
-bmewburn.vscode-intelephense-client
-burkeholland.simple-react-snippets
-castwide.solargraph
-coolbear.systemd-unit-file
-DryWolf.dark-plus-plus-theme
-eamodio.gitlens
-ejeldes.one-dark-italic-theme
-emallin.phpunit
-esbenp.prettier-vscode
-formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
-GitHub.vscode-pull-request-github
-haaaad.ansible
-infeng.vscode-react-typescript
-mblode.one-dark-italic
-mikestead.dotenv
-misogi.ruby-rubocop
-mjmcloug.vscode-elixir
-mquandalle.graphql
-ms-python.python
-ms-vscode.Go
-ms-vsliveshare.vsliveshare
-noku.rails-run-spec-vscode
-PKief.material-icon-theme
-rebornix.ruby
-sammkj.vscode-elixir-formatter
-Shan.code-settings-sync
-vscodevim.vim
+code --install-extension bmewburn.vscode-intelephense-client
+code --install-extension burkeholland.simple-react-snippets
+code --install-extension castwide.solargraph
+code --install-extension coolbear.systemd-unit-file
+code --install-extension DryWolf.dark-plus-plus-theme
+code --install-extension eamodio.gitlens
+code --install-extension ejeldes.one-dark-italic-theme
+code --install-extension emallin.phpunit
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension GitHub.vscode-pull-request-github
+code --install-extension haaaad.ansible
+code --install-extension humao.rest-client
+code --install-extension infeng.vscode-react-typescript
+code --install-extension mblode.one-dark-italic
+code --install-extension mikestead.dotenv
+code --install-extension misogi.ruby-rubocop
+code --install-extension mjmcloug.vscode-elixir
+code --install-extension mquandalle.graphql
+code --install-extension ms-python.python
+code --install-extension ms-vscode.Go
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension noku.rails-run-spec-vscode
+code --install-extension PKief.material-icon-theme
+code --install-extension rebornix.ruby
+code --install-extension sammkj.vscode-elixir-formatter
+code --install-extension Shan.code-settings-sync
+code --install-extension Vense.rails-snippets
+code --install-extension vscodevim.vim
