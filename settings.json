@@ -55,12 +55,11 @@
     "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
-    "workbench.colorTheme": "One Dark Italic",
+    "workbench.colorTheme": "Brogrammer",
     "workbench.statusBar.visible": true,
     "gitlens.views.fileHistory.enabled": true,
     "gitlens.views.lineHistory.enabled": true,
     "workbench.panel.defaultLocation": "right",
-    "terminal.explorerKind": "external",
     "workbench.startupEditor": "newUntitledFile",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.lineHeight": 0,
@@ -68,6 +67,6 @@
     "terminal.integrated.fontFamily": "Hack Nerd Font",
     "workbench.colorCustomizations" : {
         "terminal.foreground" : "#fff",
-        "terminal.background" : "#000"
+        "terminal.background" : "#000",
     }
 }
