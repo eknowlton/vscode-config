@@ -1,6 +1,5 @@
 {
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 12,
     "editor.lineNumbers": "relative",
     "editor.insertSpaces": true,
@@ -28,31 +27,25 @@
     "editor.minimap.enabled": false,
 
     "[typescript]": {
+        "editor.tabSize": 2,
         "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
     },
     "[typescriptreact]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
     },
     "[javascript]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
     },
 
     "[ruby]": {
         "editor.tabSize": 2,
         "editor.formatOnSave": true
     },
-    
+
+    "tslint.ignoreDefinitionFiles":  false,
+   
     "ruby.format": "standard",
     "ruby.useLanguageServer": true,
     "editor.formatOnSaveTimeout": 1500,
@@ -71,5 +64,10 @@
     "workbench.startupEditor": "newUntitledFile",
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.lineHeight": 0,
-    "terminal.integrated.cursorStyle": "underline"
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#fff",
+        "terminal.background" : "#000"
+    }
 }
