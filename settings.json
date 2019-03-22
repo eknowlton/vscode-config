@@ -68,5 +68,6 @@
     "workbench.colorCustomizations" : {
         "terminal.foreground" : "#fff",
         "terminal.background" : "#000",
-    }
+    },
+    "terminal.explorerKind": "external"
 }
