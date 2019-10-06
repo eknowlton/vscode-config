@@ -1,0 +1,39 @@
+{
+    "workbench.activityBar.visible": false,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontFamily": "UbuntuMono Nerd Font",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#fff",
+        "terminal.background": "#000",
+    },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+    },
+    "[ruby]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+}
